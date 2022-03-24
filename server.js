@@ -37,7 +37,7 @@ app.get('/users/:id', function (req, res, next) {
      );
 })
 
-
+// post api
 app.post('/users', function (req, res, next) {
 res.json(req.body.fname)
 })
